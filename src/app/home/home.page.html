@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Led Control
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="presentPopover($event)">
+        <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img (click)="blueOn()" height="546px" width="131px" src="/assets/Leds/blueledon.png">
+  <img (click)="blueOff()" height="546px" width="131px" src="/assets/Leds/blueledoff.png">
+  <img (click)="yellowOn()" height="546px" width="131px" src="/assets/Leds/yellowledon.png">
+  <img (click)="yellowOff()" height="546px" width="131px" src="/assets/Leds/yellowledoff.png">
+  <img (click)="redOn()" height="546px" width="131px" src="/assets/Leds/redledon.png">
+  <img (click)="redOff()" height="546px" width="131px" src="/assets/Leds/redledoff.png">
+  <img (click)="greenOn()" height="546px" width="131px" src="/assets/Leds/greenledon.png">
+  <img (click)="greenOff()" height="546px" width="131px" src="/assets/Leds/greenledoff.png">
+  <img (click)="whiteOn()" height="546px" width="131px" src="/assets/Leds/whiteledon.png">
+  <img (click)="whiteOff()" height="546px" width="131px" src="/assets/Leds/whiteledoff.png">
+  <!-- <div *ngFor='let data of bleData'>{{data}}</div> !-->
+</ion-content>
