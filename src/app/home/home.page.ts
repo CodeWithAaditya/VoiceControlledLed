@@ -60,35 +60,4 @@ export class HomePage {
   sendData(data: string) {
     bluetoothSerial.write(data, () => console.log('success'), () => console.log('failure'));
   }
-
-  blueOn() {
-    bluetoothSerial.write("1,", () => console.log('success'), () => console.log('failure'));
-  }
-  blueOff() {
-    bluetoothSerial.write("0,", () => console.log('success'), () => console.log('failure'));
-  }
-  yellowOn() {
-    bluetoothSerial.write("3,", () => console.log('success'), () => console.log('failure'));
-  }
-  yellowOff() {
-    bluetoothSerial.write("2,", () => console.log('success'), () => console.log('failure'));
-  }
-  redOn() {
-    bluetoothSerial.write("5,", () => console.log('success'), () => console.log('failure'));
-  }
-  redOff() {
-    bluetoothSerial.write("4,", () => console.log('success'), () => console.log('failure'));
-  }
-  greenOn() {
-    bluetoothSerial.write("7,", () => console.log('success'), () => console.log('failure'));
-  }
-  greenOff() {
-    bluetoothSerial.write("6,", () => console.log('success'), () => console.log('failure'));
-  }
-  whiteOn() {
-    bluetoothSerial.write("9,", () => console.log('success'), () => console.log('failure'));
-  }
-  whiteOff() {
-    bluetoothSerial.write("8,", () => console.log('success'), () => console.log('failure'));
-  }
 }

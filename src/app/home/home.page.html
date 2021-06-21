@@ -12,15 +12,15 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <img (click)="blueOn()" height="546px" width="131px" src="/assets/Leds/blueledon.png">
-  <img (click)="blueOff()" height="546px" width="131px" src="/assets/Leds/blueledoff.png">
-  <img (click)="yellowOn()" height="546px" width="131px" src="/assets/Leds/yellowledon.png">
-  <img (click)="yellowOff()" height="546px" width="131px" src="/assets/Leds/yellowledoff.png">
-  <img (click)="redOn()" height="546px" width="131px" src="/assets/Leds/redledon.png">
-  <img (click)="redOff()" height="546px" width="131px" src="/assets/Leds/redledoff.png">
-  <img (click)="greenOn()" height="546px" width="131px" src="/assets/Leds/greenledon.png">
-  <img (click)="greenOff()" height="546px" width="131px" src="/assets/Leds/greenledoff.png">
-  <img (click)="whiteOn()" height="546px" width="131px" src="/assets/Leds/whiteledon.png">
-  <img (click)="whiteOff()" height="546px" width="131px" src="/assets/Leds/whiteledoff.png">
+  <img (click)="sendData('1')" height="546px" width="131px" src="/assets/Leds/blueledon.png">
+  <img (click)="sendData('0')" height="546px" width="131px" src="/assets/Leds/blueledoff.png">
+  <img (click)="sendData('3')" height="546px" width="131px" src="/assets/Leds/yellowledon.png">
+  <img (click)="sendData('2')" height="546px" width="131px" src="/assets/Leds/yellowledoff.png">
+  <img (click)="sendData('5')" height="546px" width="131px" src="/assets/Leds/redledon.png">
+  <img (click)="sendData('4')" height="546px" width="131px" src="/assets/Leds/redledoff.png">
+  <img (click)="sendData('7')" height="546px" width="131px" src="/assets/Leds/greenledon.png">
+  <img (click)="sendData('6')" height="546px" width="131px" src="/assets/Leds/greenledoff.png">
+  <img (click)="sendData('9')" height="546px" width="131px" src="/assets/Leds/whiteledon.png">
+  <img (click)="sendData('8')" height="546px" width="131px" src="/assets/Leds/whiteledoff.png">
   <!-- <div *ngFor='let data of bleData'>{{data}}</div> !-->
 </ion-content>

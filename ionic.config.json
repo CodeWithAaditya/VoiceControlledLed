@@ -1,5 +1,7 @@
 {
   "name": "BLELedControlApp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
